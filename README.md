@@ -121,7 +121,7 @@ opcoes = {
     'format': 'bestaudio/best',
     'outtmpl': 'musicas/%(title)s.%(ext)s',
     'quiet': False,
-    'ignoreerrors': True,  # Ignora vídeos que não podem ser baixados
+    'ignoreerrors': True,
     'postprocessors': [{
         'key': 'FFmpegExtractAudio',
         'preferredcodec': 'mp3',
