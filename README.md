@@ -144,3 +144,10 @@ print("✅ Download finalizado (os vídeos com erro foram ignorados).")
   ```python
   'outtmpl': '~/Downloads/musicas/%(title)s.%(ext)s'
   ```
+
+## ⚠️ Aviso Legal
+Este projeto é distribuído apenas para fins educacionais e de uso pessoal.
+O uso deste script para baixar conteúdos do YouTube pode violar os Termos de Serviço da plataforma.
+
+O autor não se responsabiliza por qualquer uso inadequado deste código, nem por consequências legais que possam surgir.
+Ao utilizar este projeto, você está assumindo total responsabilidade pelo uso que fizer.
