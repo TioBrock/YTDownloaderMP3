@@ -139,10 +139,10 @@ print("✅ Download finalizado (os vídeos com erro foram ignorados).")
 **Observações**:
 
 * Os arquivos serão salvos na pasta `musicas/` criada automaticamente no diretório do script.
-* Se preferir salvar na pasta Downloads do sistema, edite `outtmpl` para:
+* Se preferir salvar essa pasta na pasta Music do sistema, edite `outtmpl` para:
 
   ```python
-  'outtmpl': '~/Downloads/musicas/%(title)s.%(ext)s'
+  'outtmpl': '/sdcard/Music/musicas/%(title)s.%(ext)s'
   ```
 
 ## ⚠️ Aviso Legal
